@@ -1,0 +1,58 @@
+
+RecipeBook/
+│── assets/                  # Contains images and other assets  
+│   ├── img1.jpg  
+│   ├── img2.jpg  
+│   └── ...  
+│  
+│── Nonveg/                  # Non-vegetarian section  
+│   ├── nonveg.json  
+│   ├── script2.js  
+│   ├── style2.css  
+│   ├── nonveg.html  
+│   ├── img/                 # Image folder for non-veg recipes  
+│   │   ├── img1.jpg  
+│   │   ├── img2.jpg  
+│   │   └── ...  
+│  
+│── Veg_menus/               # Vegetarian section  
+│   ├── images1/             # Image folder for veg recipes  
+│   │   ├── img1.jpg  
+│   │   ├── img2.jpg  
+│   │   └── ...  
+│   ├── script1.js  
+│   ├── style1.css  
+│   ├── veg.html  
+│   ├── veg.json  
+│  
+│── Drink_and_snacks/        # Drinks & Snacks section  
+│   ├── drink_snack.html  
+│   ├── drink_snack.json  
+│   ├── script4.js  
+│   ├── style4.css  
+│  
+│── Dessert/                 # Dessert section  
+│   ├── dessert.html  
+│   ├── dessert.json  
+│   ├── script3.js  
+│   ├── style3.css  
+│  
+│── About/                   # About page  
+│   ├── about.html  
+│   ├── script5.js  
+│   ├── style5.css  
+│  
+│── LoginPage/               # Login and recipe management  
+│   ├── addrecipe.html  
+│   ├── addrecipe.js  
+│   ├── index.html           # Login page  
+│   ├── login.css  
+│   ├── login.js  
+│   ├── recipe.js  
+│   ├── server.js            # Backend  
+│   ├── viewrecipe.html  
+│   ├── viewrecipe.js  
+│  
+│── index.html               # Main entry point  
+│── script.js                # Main JavaScript  
+│── style.css                # Main CSS  
