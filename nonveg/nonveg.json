@@ -1,0 +1,686 @@
+[
+    {
+        "id": 1,
+        "name": "Pallipalayam Chicken",
+        "category": "Chicken Specialties",
+        "image": "https://www.foodiesfeed.com/wp-content/uploads/2023/03/close-up-of-butter-chicken-indian-dish.jpg",
+        "ingredients": ["Chicken", "Shallots", "Coconut", "Curry Leaves", "Red Chilies", "Turmeric", "Mustard Seeds", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Heat oil in a pan and add mustard seeds. Let them splutter.",
+            "Step 2: Add sliced shallots and sauté until golden brown.",
+            "Step 3: Add curry leaves and dried red chilies, and fry for a minute.",
+            "Step 4: Add turmeric powder and mix well.",
+            "Step 5: Add chicken pieces and salt, and cook until the chicken is half done.",
+            "Step 6: Add grated coconut and mix well.",
+            "Step 7: Cook on low heat until the chicken is fully done and the mixture is dry.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Chettinad Kozhi Rasam",
+        "category": "Chicken Specialties",
+        "image": "https://spicecontainer.com/wp-content/uploads/2020/05/chettinad-kozhi-rasam.JPG",
+        "ingredients": ["Chicken", "Tomato", "Tamarind", "Garlic", "Pepper", "Cumin", "Coriander Seeds", "Curry Leaves"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Boil chicken pieces with turmeric and salt until tender.",
+            "Step 2: Extract tamarind juice and set aside.",
+            "Step 3: Dry roast pepper, cumin, and coriander seeds, then grind into a powder.",
+            "Step 4: In a pot, sauté garlic and curry leaves in oil.",
+            "Step 5: Add chopped tomatoes and cook until soft.",
+            "Step 6: Add the tamarind juice, ground spices, and chicken stock. Bring to a boil.",
+            "Step 7: Add the cooked chicken pieces and simmer for 10 minutes.",
+            "Step 8: Serve hot as a soup or with rice."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Thalappakatti Chicken Biryani",
+        "category": "Chicken Specialties",
+        "image": "https://media.istockphoto.com/id/516416954/photo/authentic-chicken-biryani-with-onion-raita.webp?a=1&b=1&s=612x612&w=0&k=20&c=1yHVFm11rm1_pOetKbTnmxnq-J704cXcD7AoJ3vYSqo=",
+        "ingredients": ["Chicken", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Ginger-Garlic Paste", "Mint", "Coriander"],
+        "rating": 4.8,
+        "preparation": [
+            "Step 1: Marinate chicken with yogurt, ginger-garlic paste, and spices for 1 hour.",
+            "Step 2: Cook basmati rice until 70% done and set aside.",
+            "Step 3: In a pan, sauté onions until golden brown.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add the marinated chicken and cook until tender.",
+            "Step 6: Layer the cooked rice over the chicken in a heavy-bottomed pot.",
+            "Step 7: Cover and cook on low heat for 20 minutes (dum cooking).",
+            "Step 8: Mix gently and serve hot with raita."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Madurai Kozhi Kuzhambu",
+        "category": "Chicken Specialties",
+        "image": "https://www.thevellorekitchen.in/wp-content/uploads/2023/01/MADURAI-KARI-KUZHAMBU.jpg",
+        "ingredients": ["Chicken", "Gingelly Oil", "Shallots", "Garlic", "Tamarind", "Chili Powder", "Coriander Powder", "Curry Leaves"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Heat gingelly oil in a pan and sauté shallots and garlic.",
+            "Step 2: Add curry leaves and fry for a minute.",
+            "Step 3: Add chicken pieces and cook until they turn white.",
+            "Step 4: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 5: Add tamarind extract and bring to a boil.",
+            "Step 6: Simmer until the chicken is cooked and the gravy thickens.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Kozhi Thengai Varuval",
+        "category": "Chicken Specialties",
+        "image": "https://www.madrasi.info/image/chicken-varuval.jpg",
+        "ingredients": ["Chicken", "Grated Coconut", "Curry Leaves", "Red Chilies", "Turmeric", "Mustard Seeds", "Oil"],
+        "rating": 4.3,
+        "preparation": [
+            "Step 1: Heat oil in a pan and add mustard seeds. Let them splutter.",
+            "Step 2: Add curry leaves and dried red chilies, and fry for a minute.",
+            "Step 3: Add turmeric powder and mix well.",
+            "Step 4: Add chicken pieces and salt, and cook until the chicken is half done.",
+            "Step 5: Add grated coconut and mix well.",
+            "Step 6: Cook on low heat until the chicken is fully done and the mixture is dry.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Chicken Kola Urundai",
+        "category": "Chicken Specialties",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSexhC0IpTxVxbZgwDkq9k0VAu7ENEpOumfMQ&s",
+        "ingredients": ["Chicken", "Gram Flour", "Onion", "Garlic", "Ginger", "Green Chilies", "Coriander Leaves", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Grind chicken into a fine paste along with garlic, ginger, and green chilies.",
+            "Step 2: Mix the paste with chopped onions, coriander leaves, and gram flour.",
+            "Step 3: Add salt and spices, and mix well to form a dough.",
+            "Step 4: Shape the dough into small balls.",
+            "Step 5: Heat oil in a pan for deep frying.",
+            "Step 6: Fry the balls until golden brown and crispy.",
+            "Step 7: Drain on paper towels to remove excess oil.",
+            "Step 8: Serve hot with chutney or sauce."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Vanjiram Kozhi Chops",
+        "category": "Chicken Specialties",
+        "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2017/08/1-29.jpg",
+        "ingredients": ["Country Chicken", "Homemade Masala", "Onion", "Tomato", "Curry Leaves", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Marinate chicken with homemade masala and salt for 1 hour.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add curry leaves and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add the marinated chicken and cook until tender.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Cook until the gravy thickens.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Malli Kozhi Curry",
+        "category": "Chicken Specialties",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr0q3i3dwb2AoJpU6ZRyBVZQZVrLgjB0BurobhgQnbVYqVP4bh8ZVvI1-f4DicXDvM4HI&usqp=CAU",
+        "ingredients": ["Chicken", "Coriander Leaves", "Green Chilies", "Coconut", "Onion", "Tomato", "Ginger-Garlic Paste", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Grind coriander leaves, green chilies, and coconut into a paste.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add ginger-garlic paste and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add the ground paste and cook for 2-3 minutes.",
+            "Step 6: Add chicken pieces and salt, and cook until tender.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Attu Kozhi Masala",
+        "category": "Chicken Specialties",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToi_srmBZbS6aArOQUTTQbR0vOFVDNh6u0oQ&s",
+        "ingredients": ["Country Chicken", "Onion", "Tomato", "Curry Leaves", "Ginger-Garlic Paste", "Spices", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 2: Add curry leaves and fry for a minute.",
+            "Step 3: Add ginger-garlic paste and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add spices and mix well.",
+            "Step 6: Add chicken pieces and salt, and cook until tender.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Kadai Chicken with Milagu",
+        "category": "Chicken Specialties",
+        "image": "https://myfoodstory.com/wp-content/uploads/2021/09/kadai-chicken-1.jpg",
+        "ingredients": ["Chicken", "Black Pepper", "Onion", "Tomato", "Curry Leaves", "Ginger-Garlic Paste", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Heat oil in an iron kadai and sauté onions until golden brown.",
+            "Step 2: Add curry leaves and fry for a minute.",
+            "Step 3: Add ginger-garlic paste and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add crushed black pepper and mix well.",
+            "Step 6: Add chicken pieces and salt, and cook until tender.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Kari Dosa",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeavzNDcJp9RV0Bq_yVDrJ2prsb5LlOMFjrw&s",
+        "ingredients": ["Mutton", "Dosa Batter", "Onion", "Tomato", "Spices", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Cook minced mutton with onions, tomatoes, and spices until tender.",
+            "Step 2: Prepare dosa batter and spread it on a hot griddle.",
+            "Step 3: Place a portion of the cooked mutton on the dosa.",
+            "Step 4: Fold the dosa and cook until crispy.",
+            "Step 5: Flip and cook the other side.",
+            "Step 6: Remove from the griddle and cut into pieces.",
+            "Step 7: Serve hot with chutney or sambar.",
+            "Step 8: Enjoy the unique flavor of Madurai-style kari dosa."
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Nenju Elumbu Rasam",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHHZdP_a8tI4p-iN-vtKTID4fkSAnQsxhoY63de9K26d-ub6J_lo3lGsUUzbYeSPX046o&usqp=CAU",
+        "ingredients": ["Goat Bones", "Tomato", "Tamarind", "Garlic", "Pepper", "Cumin", "Curry Leaves"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Boil goat bones with turmeric and salt until tender.",
+            "Step 2: Extract tamarind juice and set aside.",
+            "Step 3: Dry roast pepper and cumin, then grind into a powder.",
+            "Step 4: In a pot, sauté garlic and curry leaves in oil.",
+            "Step 5: Add chopped tomatoes and cook until soft.",
+            "Step 6: Add the tamarind juice, ground spices, and bone stock. Bring to a boil.",
+            "Step 7: Simmer for 10 minutes.",
+            "Step 8: Serve hot as a soup or with rice."
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Vaniyambadi Mutton Biryani",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://www.ahmediahotel.com/website/images/g8.jpg",
+        "ingredients": ["Mutton", "Basmati Rice", "Onion", "Tomato", "Yogurt", "Ginger-Garlic Paste", "Mint", "Coriander"],
+        "rating": 4.8,
+        "preparation": [
+            "Step 1: Marinate mutton with yogurt, ginger-garlic paste, and spices for 1 hour.",
+            "Step 2: Cook basmati rice until 70% done and set aside.",
+            "Step 3: In a pan, sauté onions until golden brown.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add the marinated mutton and cook until tender.",
+            "Step 6: Layer the cooked rice over the mutton in a heavy-bottomed pot.",
+            "Step 7: Cover and cook on low heat for 20 minutes (dum cooking).",
+            "Step 8: Mix gently and serve hot with raita."
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Mutton Uppu Kari",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://images.boldsky.com/ta/img/2024/10/mutton-uppukari-big-1730278407.jpg",
+        "ingredients": ["Mutton", "Salt", "Curry Leaves", "Red Chilies", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Heat oil in a pan and add curry leaves and red chilies.",
+            "Step 2: Add mutton pieces and salt, and cook until tender.",
+            "Step 3: Adjust seasoning if needed.",
+            "Step 4: Cook until the mutton is dry and well-roasted.",
+            "Step 5: Remove from heat and let it rest for 5 minutes.",
+            "Step 6: Serve hot with rice or roti.",
+            "Step 7: Enjoy the unique flavor of Kongu Nadu-style mutton uppu kari.",
+            "Step 8: Store leftovers in an airtight container for later use."
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Eral Kari Thokku",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://www.kannammacooks.com/wp-content/uploads/prawn-thokku-scaled.jpg",
+        "ingredients": ["Mutton", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 2: Add tomatoes and cook until soft.",
+            "Step 3: Add tamarind extract and bring to a boil.",
+            "Step 4: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 5: Add mutton pieces and cook until tender.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Cook until the gravy thickens.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Mutton Kudal Kuzhambu",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://i.ytimg.com/vi/sL-sMf0YI3g/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBddDgDkOPdg6NUSjUgOuJuyEiawQ",
+        "ingredients": ["Mutton Intestines", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.3,
+        "preparation": [
+            "Step 1: Clean mutton intestines thoroughly and boil until tender.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add tomatoes and cook until soft.",
+            "Step 4: Add tamarind extract and bring to a boil.",
+            "Step 5: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 6: Add the boiled intestines and cook for 10 minutes.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice."
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Madurai Mutton Chukka",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGtJloCRQvw38So5p14L8FkmjRrvSlD9ow6w&s",
+        "ingredients": ["Mutton", "Shallots", "Curry Leaves", "Red Chilies", "Spices", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Heat oil in a pan and sauté shallots until golden brown.",
+            "Step 2: Add curry leaves and red chilies, and fry for a minute.",
+            "Step 3: Add spices and mix well.",
+            "Step 4: Add mutton pieces and salt, and cook until tender.",
+            "Step 5: Adjust seasoning if needed.",
+            "Step 6: Cook until the mutton is dry and well-roasted.",
+            "Step 7: Remove from heat and let it rest for 5 minutes.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Paaya (Mutton Trotter Soup)",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1k3edw01mRvY_UWzx5oETcPaSWR89aaT3uA&s",
+        "ingredients": ["Mutton Trotters", "Onion", "Tomato", "Ginger-Garlic Paste", "Spices", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Clean mutton trotters thoroughly and boil until tender.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add ginger-garlic paste and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add spices and mix well.",
+            "Step 6: Add the boiled trotters and cook for 10 minutes.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot as a soup or with rice."
+        ]
+    },
+    {
+        "id": 20,
+        "name": "Aatu Kaal Kari Varuval",
+        "category": "Mutton & Lamb Delicacies",
+        "image": "https://cooking.jingalala.org/images/mutton-fry-sivakasi-style-1_thumb.jpg",
+        "ingredients": ["Goat Leg Pieces", "Onion", "Tomato", "Curry Leaves", "Spices", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 2: Add curry leaves and fry for a minute.",
+            "Step 3: Add tomatoes and cook until soft.",
+            "Step 4: Add spices and mix well.",
+            "Step 5: Add goat leg pieces and salt, and cook until tender.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Cook until the gravy thickens.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 21,
+        "name": "Egg Kothu Parotta",
+        "category": "Egg Specialties",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHdPL5r5NhrKQi8IHxa07uyftlYav0xLMxFQ&s",
+        "ingredients": ["Eggs", "Parotta", "Onion", "Tomato", "Green Chilies", "Curry Leaves", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Shred parotta into small pieces and set aside.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Beat eggs and pour them into the pan.",
+            "Step 6: Add the shredded parotta and mix well.",
+            "Step 7: Cook until the eggs are fully done.",
+            "Step 8: Serve hot with chutney or sauce."
+        ]
+    },
+    {
+        "id": 22,
+        "name": "Muttai Masala Vadai",
+        "category": "Egg Specialties",
+        "image": "https://verygoodrecipes.com/images/blogs/spicy-treats/chickpea-masal-vadai-recipe-kondakadalai-masal-vadai-recipe-masala-vadai-with-kabuli-channa.640x480.jpg",
+        "ingredients": ["Eggs", "Gram Flour", "Onion", "Green Chilies", "Coriander Leaves", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Boil eggs, peel, and cut them into halves.",
+            "Step 2: Mix gram flour, chopped onions, green chilies, coriander leaves, and salt to form a batter.",
+            "Step 3: Heat oil in a pan for deep frying.",
+            "Step 4: Dip the egg halves in the batter and coat evenly.",
+            "Step 5: Fry the coated eggs until golden brown and crispy.",
+            "Step 6: Drain on paper towels to remove excess oil.",
+            "Step 7: Serve hot with chutney or sauce.",
+            "Step 8: Enjoy the crispy and spicy muttai masala vadai."
+        ]
+    },
+    {
+        "id": 23,
+        "name": "Egg Podimas",
+        "category": "Egg Specialties",
+        "image": "https://blogexplore.com/wp-content/uploads/2012/11/blogexplore.com-muttai-egg-podimas-560x700.jpg",
+        "ingredients": ["Eggs", "Onion", "Green Chilies", "Curry Leaves", "Mustard Seeds", "Oil"],
+        "rating": 4.3,
+        "preparation": [
+            "Step 1: Boil eggs, peel, and mash them coarsely.",
+            "Step 2: Heat oil in a pan and add mustard seeds. Let them splutter.",
+            "Step 3: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 4: Add chopped onions and sauté until golden brown.",
+            "Step 5: Add the mashed eggs and salt, and mix well.",
+            "Step 6: Cook for 2-3 minutes until everything is well combined.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Sura Puttu Muttai Varuval",
+        "category": "Egg Specialties",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF1VpFgsdPraXYQHqDkOVwtlX2CWs6ABxsng&s",
+        "ingredients": ["Shark Meat", "Eggs", "Onion", "Green Chilies", "Curry Leaves", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Cook shark meat until tender and shred it into small pieces.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 4: Add the shredded shark meat and cook for 2-3 minutes.",
+            "Step 5: Beat eggs and pour them into the pan.",
+            "Step 6: Mix well and cook until the eggs are fully done.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Egg Kuzhi Paniyaram",
+        "category": "Egg Specialties",
+        "image": "https://www.kannammacooks.com/wp-content/uploads/masala-muttai-paniyaram-recipe-1-4.jpg",
+        "ingredients": ["Eggs", "Rice Flour", "Onion", "Green Chilies", "Curry Leaves", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Mix rice flour, chopped onions, green chilies, curry leaves, and salt to form a batter.",
+            "Step 2: Heat a kuzhi paniyaram pan and add a few drops of oil in each mold.",
+            "Step 3: Pour a spoonful of batter into each mold.",
+            "Step 4: Crack an egg into each mold on top of the batter.",
+            "Step 5: Cover and cook on low heat until the bottom is golden brown.",
+            "Step 6: Flip and cook the other side until done.",
+            "Step 7: Remove from the pan and serve hot with chutney or sauce.",
+            "Step 8: Enjoy the unique egg kuzhi paniyaram."
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Nattu Muttai Kuzhambu",
+        "category": "Egg Specialties",
+        "image": "https://cdn.ibcstack.com/article/fea5ad67-087f-45a2-a5b1-28cb1110f560/24-669381897d324.webp",
+        "ingredients": ["Country Eggs", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Gingelly Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Heat gingelly oil in a pan and sauté onions until golden brown.",
+            "Step 2: Add tomatoes and cook until soft.",
+            "Step 3: Add tamarind extract and bring to a boil.",
+            "Step 4: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 5: Add boiled country eggs and cook for 10 minutes.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Cook until the gravy thickens.",
+            "Step 8: Serve hot with rice."
+        ]
+    },
+    {
+        "id": 27,
+        "name": "Egg Roast with Milagu",
+        "category": "Egg Specialties",
+        "image": "https://i.ytimg.com/vi/nMy_J0M5RdI/maxresdefault.jpg",
+        "ingredients": ["Eggs", "Onion", "Tomato", "Black Pepper", "Coconut", "Curry Leaves", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Boil eggs, peel, and make small slits on the surface.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add curry leaves and fry for a minute.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add crushed black pepper and grated coconut. Mix well.",
+            "Step 6: Add the boiled eggs and cook for 5 minutes.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Kalakki",
+        "category": "Egg Specialties",
+        "image": "https://i0.wp.com/www.thebusyapron.com/wp-content/uploads/2020/01/IMG_20200112_143421-scaled-e1579794688953.jpg?fit=2560%2C1580",
+        "ingredients": ["Eggs", "Onion", "Green Chilies", "Curry Leaves", "Mustard Seeds", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Beat eggs with salt and set aside.",
+            "Step 2: Heat oil in a pan and add mustard seeds. Let them splutter.",
+            "Step 3: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 4: Add chopped onions and sauté until golden brown.",
+            "Step 5: Pour the beaten eggs into the pan.",
+            "Step 6: Cook on low heat until the eggs are fluffy and runny.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Muttai Muringakai Thokku",
+        "category": "Egg Specialties",
+        "image": "https://i.ytimg.com/vi/1n0gK-zJ9iU/maxresdefault.jpg",
+        "ingredients": ["Eggs", "Drumstick", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Boil eggs, peel, and set aside.",
+            "Step 2: Cook drumstick pieces until tender.",
+            "Step 3: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 4: Add tomatoes and cook until soft.",
+            "Step 5: Add tamarind extract and bring to a boil.",
+            "Step 6: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 7: Add the boiled eggs and drumstick pieces, and cook for 10 minutes.",
+            "Step 8: Serve hot with rice."
+        ]
+    },
+    {
+        "id": 31,
+        "name": "Meen Varuval with Karuveppilai",
+        "category": "Seafood Delights",
+        "image": "https://i.ytimg.com/vi/kNU9r08Mn6Y/sddefault.jpg",
+        "ingredients": ["Fish", "Curry Leaves", "Red Chilies", "Turmeric", "Mustard Seeds", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Marinate fish with turmeric and salt for 10 minutes.",
+            "Step 2: Heat oil in a pan and add mustard seeds. Let them splutter.",
+            "Step 3: Add curry leaves and red chilies, and fry for a minute.",
+            "Step 4: Add the marinated fish and cook until golden brown on both sides.",
+            "Step 5: Adjust seasoning if needed.",
+            "Step 6: Remove from heat and let it rest for 5 minutes.",
+            "Step 7: Serve hot with rice or roti.",
+            "Step 8: Enjoy the crispy fish fry with curry leaf flavor."
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Nandu Rasam",
+        "category": "Seafood Delights",
+        "image": "https://happietrio.com/wp-content/uploads/2018/05/NanduRasam2.jpg",
+        "ingredients": ["Crab", "Tomato", "Tamarind", "Garlic", "Pepper", "Cumin", "Curry Leaves"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Boil crab pieces with turmeric and salt until tender.",
+            "Step 2: Extract tamarind juice and set aside.",
+            "Step 3: Dry roast pepper and cumin, then grind into a powder.",
+            "Step 4: In a pot, sauté garlic and curry leaves in oil.",
+            "Step 5: Add chopped tomatoes and cook until soft.",
+            "Step 6: Add the tamarind juice, ground spices, and crab stock. Bring to a boil.",
+            "Step 7: Simmer for 10 minutes.",
+            "Step 8: Serve hot as a soup or with rice."
+        ]
+    },
+    {
+        "id": 33,
+        "name": "Chemmeen Moilee",
+        "category": "Seafood Delights",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOQYsAP1l8V0uOPZTF_k76mnPKRBOaNKJwQ&s",
+        "ingredients": ["Prawns", "Coconut Milk", "Onion", "Green Chilies", "Curry Leaves", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 2: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 3: Add prawns and cook until they turn pink.",
+            "Step 4: Add coconut milk and bring to a boil.",
+            "Step 5: Simmer for 5-7 minutes until the gravy thickens.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Serve hot with rice or appam.",
+            "Step 8: Enjoy the creamy and flavorful chemmeen moilee."
+        ]
+    },
+    {
+        "id": 34,
+        "name": "Viral Meen Puttu",
+        "category": "Seafood Delights",
+        "image": "https://foodwrite.co.uk/wp-content/uploads/2024/06/sura-puttu-123rf-229821131_m_normal_none.jpg",
+        "ingredients": ["Catfish", "Turmeric", "Chili Powder", "Curry Leaves", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Clean and mash catfish into a paste.",
+            "Step 2: Mix turmeric, chili powder, and salt into the paste.",
+            "Step 3: Heat oil in a pan and add curry leaves.",
+            "Step 4: Add the fish paste and cook until it forms a thick mixture.",
+            "Step 5: Adjust seasoning if needed.",
+            "Step 6: Remove from heat and let it cool.",
+            "Step 7: Shape the mixture into small balls or patties.",
+            "Step 8: Serve hot with rice or as a side dish."
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Nandu Thokku",
+        "category": "Seafood Delights",
+        "image": "https://i0.wp.com/www.royaldhakshin.com/wp-content/uploads/2019/06/nandu_kulambu.jpg?fit=1600%2C952&ssl=1",
+        "ingredients": ["Crab", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Boil crab pieces until tender and set aside.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add tomatoes and cook until soft.",
+            "Step 4: Add tamarind extract and bring to a boil.",
+            "Step 5: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 6: Add the boiled crab pieces and cook for 10 minutes.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice or roti."
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Squid Pepper Fry",
+        "category": "Seafood Delights",
+        "image": "https://media-cdn.tripadvisor.com/media/photo-s/12/64/a9/75/squid-pepper-fry.jpg",
+        "ingredients": ["Squid", "Black Pepper", "Onion", "Green Chilies", "Curry Leaves", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Clean squid thoroughly and cut into rings.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 4: Add crushed black pepper and mix well.",
+            "Step 5: Add squid pieces and salt, and cook until tender.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Cook until the squid is well-coated with the masala.",
+            "Step 8: Serve hot with rice or as a side dish."
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Sankara Meen Vattichathu",
+        "category": "Seafood Delights",
+        "image": "https://www.shutterstock.com/image-photo/meen-vattichathu-pattichathu-sardine-fish-260nw-1169813908.jpg",
+        "ingredients": ["Red Snapper", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Clean red snapper and make small slits on the surface.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add tomatoes and cook until soft.",
+            "Step 4: Add tamarind extract and bring to a boil.",
+            "Step 5: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 6: Add the fish and cook for 10 minutes.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice."
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Kola Meen Kuzhambu",
+        "category": "Seafood Delights",
+        "image": "https://i.pinimg.com/736x/f0/75/a2/f075a2b097d3479d773b94b61c63938b.jpg",
+        "ingredients": ["Catfish", "Coconut Milk", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Clean catfish and set aside.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add tomatoes and cook until soft.",
+            "Step 4: Add tamarind extract and bring to a boil.",
+            "Step 5: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 6: Add coconut milk and bring to a boil.",
+            "Step 7: Add the fish and cook for 10 minutes.",
+            "Step 8: Serve hot with rice."
+        ]
+    },
+    {
+        "id": 39,
+        "name": "Eral Sodhi",
+        "category": "Seafood Delights",
+        "image": "https://www.kamalascorner.com/wp-content/uploads/2012/01/Sodhi.jpg",
+        "ingredients": ["Prawns", "Coconut Milk", "Onion", "Green Chilies", "Curry Leaves", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 2: Add curry leaves and green chilies, and fry for a minute.",
+            "Step 3: Add prawns and cook until they turn pink.",
+            "Step 4: Add coconut milk and bring to a boil.",
+            "Step 5: Simmer for 5-7 minutes until the gravy thickens.",
+            "Step 6: Adjust seasoning if needed.",
+            "Step 7: Serve hot with rice or appam.",
+            "Step 8: Enjoy the creamy and flavorful eral sodhi."
+        ]
+    },
+    {
+        "id": 40,
+        "name": "Meen Karuvaadu Thokku",
+        "category": "Seafood Delights",
+        "image": "https://www.kannammacooks.com/wp-content/uploads/fish-thokku-recipe-2.jpg",
+        "ingredients": ["Dry Fish", "Onion", "Tomato", "Tamarind", "Chili Powder", "Coriander Powder", "Oil"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Soak dry fish in water for 10 minutes to remove excess salt.",
+            "Step 2: Heat oil in a pan and sauté onions until golden brown.",
+            "Step 3: Add tomatoes and cook until soft.",
+            "Step 4: Add tamarind extract and bring to a boil.",
+            "Step 5: Add chili powder, coriander powder, and salt. Mix well.",
+            "Step 6: Add the soaked dry fish and cook for 10 minutes.",
+            "Step 7: Adjust seasoning if needed.",
+            "Step 8: Serve hot with rice."
+        ]
+    }
+]
