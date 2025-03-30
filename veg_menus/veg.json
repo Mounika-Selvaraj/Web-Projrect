@@ -1,0 +1,908 @@
+[
+    {
+        "id": 1,
+        "name": "Kavuni Arisi Puttu – Black Rice Steamed Cake",
+        "category": "Breakfast",
+        "image": "images1/kavuni_arisi_puttu.jpg",
+        "ingredients": ["Black Rice", "Jaggery", "Coconut", "Cardamom", "Water"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1:Wash and soak black rice in water for at least 4 hours or overnight.",
+            "\n Step 2:\n Drain the water and grind the soaked rice into a coarse batter.",
+            "Step 3:\n Add grated jaggery to the batter and mix well until it dissolves completely.",
+            "Step 4:\n Grate fresh coconut and add it to the batter along with crushed cardamom for flavor.",
+            "Step 5:\n Prepare a steamer and grease the puttu mold with coconut oil to prevent sticking.",
+            "Step 6:\n Fill the mold with the batter, leaving some space at the top for expansion.",
+            "Step 7:\n Steam the batter in the puttu mold for 15-20 minutes on medium heat.",
+            "Step 8:\n Check if the puttu is cooked by inserting a toothpick; it should come out clean.",
+            "Step 9:\nRemove the mold from the steamer and let it cool for 5 minutes.",
+            "Step 10:\n Gently unmold the puttu and serve warm with a side of coconut milk or banana."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Thinai (Foxtail Millet) Dosai – Crispy Dosa",
+        "category": "Breakfast",
+        "image": "images1/Thinai_Dosa.jpg",
+        "ingredients": ["Foxtail Millet", "Urad Dal", "Fenugreek Seeds", "Salt", "Water"],
+        "rating": 4.8,
+        "preparation": [
+            "Step 1: Wash and soak foxtail millet, urad dal, and fenugreek seeds separately for 4-6 hours.",
+            "Step 2: Grind the soaked ingredients into a smooth batter, adding water as needed.",
+            "Step 3: Mix the batter thoroughly, add salt, and let it ferment overnight in a warm place.",
+            "Step 4: Heat a dosa tawa and grease it lightly with oil.",
+            "Step 5: Pour a ladleful of batter onto the tawa and spread it in a circular motion to form a thin dosa.",
+            "Step 6: Drizzle oil around the edges and cook on medium heat until the dosa turns golden brown.",
+            "Step 7: Flip the dosa and cook the other side for 1-2 minutes.",
+            "Step 8: Fold the dosa and serve hot with coconut chutney or sambar.",
+            "Step 9: Repeat the process for the remaining batter.",
+            "Step 10: Store leftover batter in the refrigerator for up to 2 days."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Kambu Koozh – Pearl Millet Porridge",
+        "category": "Breakfast",
+        "image": "images1/KambuKoozh.jpg",
+        "ingredients": ["Pearl Millet Flour", "Water", "Buttermilk", "Onion", "Green Chili", "Curry Leaves", "Salt"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Mix pearl millet flour with water to form a smooth paste without lumps.",
+            "Step 2: Boil water in a pot and slowly add the millet paste, stirring continuously to avoid lumps.",
+            "Step 3: Cook the mixture on low heat until it thickens into a porridge-like consistency.",
+            "Step 4: Remove from heat and let it cool to room temperature.",
+            "Step 5: Add buttermilk to the cooled porridge and mix well.",
+            "Step 6: Finely chop onions, green chilies, and curry leaves for seasoning.",
+            "Step 7: Heat oil in a pan and sauté the chopped ingredients until golden brown.",
+            "Step 8: Add the seasoning to the porridge and mix well.",
+            "Step 9: Serve chilled or at room temperature as a refreshing breakfast.",
+            "Step 10: Optionally, garnish with coriander leaves or grated coconut."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Vazhaipoo Adai – Banana Flower Pancake",
+        "category": "Breakfast",
+        "image": "images1/vegetable_adai.webp",
+        "ingredients": ["Banana Flower", "Rice", "Urad Dal", "Red Chili", "Cumin Seeds", "Asafoetida", "Salt", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Clean and finely chop the banana flower, removing the florets and hard parts.",
+            "Step 2: Wash and soak rice and urad dal separately for 4-6 hours.",
+            "Step 3: Grind the soaked rice and dal into a coarse batter.",
+            "Step 4: Add chopped banana flower, red chili, cumin seeds, asafoetida, and salt to the batter.",
+            "Step 5: Mix well to ensure even distribution of ingredients.",
+            "Step 6: Heat a tawa and grease it lightly with oil.",
+            "Step 7: Pour a ladleful of batter onto the tawa and spread it into a thick pancake.",
+            "Step 8: Cook on medium heat until both sides are golden brown and crispy.",
+            "Step 9: Serve hot with coconut chutney or tomato chutney.",
+            "Step 10: Repeat the process for the remaining batter."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Murungai Keerai Dosa – Drumstick Leaves-Infused Dosa",
+        "category": "Breakfast",
+        "image": "images1/MurungaiKeeraidosa.jpg",
+        "ingredients": ["Drumstick Leaves", "Idli Rice", "Urad Dal", "Fenugreek Seeds", "Salt", "Water"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Wash and soak idli rice, urad dal, and fenugreek seeds separately for 4-6 hours.",
+            "Step 2: Grind the soaked ingredients into a smooth batter, adding water as needed.",
+            "Step 3: Allow the batter to ferment overnight in a warm place.",
+            "Step 4: Clean and finely chop drumstick leaves, removing any tough stems.",
+            "Step 5: Add the chopped drumstick leaves and salt to the batter, mixing well.",
+            "Step 6: Heat a dosa tawa on medium heat and lightly grease it with oil.",
+            "Step 7: Pour a ladle of batter onto the tawa and spread it in a circular motion to make a thin dosa.",
+            "Step 8: Drizzle a little oil around the edges and cook for 2-3 minutes until golden brown.",
+            "Step 9: Flip and cook the other side for another 1-2 minutes if needed.",
+            "Step 10: Serve hot with coconut chutney or sambar.",
+            "Step 11: Store leftover batter in the refrigerator for up to 2 days."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Karuppu Kavuni Arisi Pongal – Black Rice Sweet Pongal",
+        "category": "Breakfast",
+        "image": "images1/KaruppuKavuniArisiPongal.jpeg",
+        "ingredients": ["Black Rice", "Jaggery", "Milk", "Ghee", "Cardamom", "Cashews", "Raisins"],
+        "rating": 4.8,
+        "preparation": [
+            "Step 1: Wash and soak black rice in water for at least 4 hours.",
+            "Step 2: Cook the soaked rice in a pressure cooker with milk and water until soft.",
+            "Step 3: In a separate pan, melt jaggery with a little water to form a syrup.",
+            "Step 4: Strain the jaggery syrup to remove impurities and add it to the cooked rice.",
+            "Step 5: Mix well and cook on low heat until the mixture thickens.",
+            "Step 6: Heat ghee in a small pan and roast cashews and raisins until golden.",
+            "Step 7: Add crushed cardamom and the roasted nuts to the pongal, mixing well.",
+            "Step 8: Cook for another 2-3 minutes, allowing the flavors to blend.",
+            "Step 9: Serve warm as a sweet and nutritious breakfast.",
+            "Step 10: Store leftovers in an airtight container for up to 2 days."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Thoothuvalai Dosai – Herbal Dosa",
+        "category": "Breakfast",
+        "image": "images1/ThoothuvalaiDosai.jpeg",
+        "ingredients": ["Thoothuvalai Leaves", "Rice", "Urad Dal", "Fenugreek Seeds", "Salt", "Water"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Wash and soak rice, urad dal, and fenugreek seeds separately for 4-6 hours.",
+            "Step 2: Clean and grind thoothuvalai leaves into a fine paste.",
+            "Step 3: Grind the soaked ingredients into a smooth batter, adding water as needed.",
+            "Step 4: Mix the thoothuvalai paste and salt into the batter, ensuring even distribution.",
+            "Step 5: Allow the batter to ferment overnight in a warm place.",
+            "Step 6: Heat a dosa tawa and grease it lightly with oil.",
+            "Step 7: Pour a ladleful of batter onto the tawa and spread it into a thin dosa.",
+            "Step 8: Drizzle oil around the edges and cook until golden brown on both sides.",
+            "Step 9: Serve hot with coconut chutney or tomato chutney.",
+            "Step 10: Store leftover batter in the refrigerator for up to 2 days."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Ragi Sevai – Finger Millet String Hoppers",
+        "category": "Breakfast",
+        "image":"images1/RagiSevai.jpeg",
+        "ingredients": ["Ragi Flour", "Rice Flour", "Water", "Salt", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: Mix ragi flour and rice flour in a bowl, adding salt to taste.",
+            "Step 2: Boil water in a pot and add it to the flour mixture, stirring continuously.",
+            "Step 3: Knead the mixture into a smooth dough while it is still warm.",
+            "Step 4: Fill the dough into a sevai press or idiyappam maker.",
+            "Step 5: Press the dough into thin strands onto idli plates or a steamer tray.",
+            "Step 6: Steam the sevai for 10-12 minutes on medium heat.",
+            "Step 7: Remove from the steamer and let it cool for 2-3 minutes.",
+            "Step 8: Gently separate the strands using a fork or your fingers.",
+            "Step 9: Serve hot with coconut chutney, sambar, or any curry of your choice.",
+            "Step 10: Store leftovers in an airtight container for up to 2 days."
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Sweet Karupatti Dosai – Palm Jaggery Dosa",
+        "category": "Breakfast",
+        "image": "images1/SweetKarupattiDosai.jpeg",
+        "ingredients": ["Rice", "Urad Dal", "Palm Jaggery", "Cardamom", "Ghee", "Water"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Wash and soak rice and urad dal separately for 4-6 hours.",
+            "Step 2: Grind the soaked ingredients into a smooth batter, adding water as needed.",
+            "Step 3: Allow the batter to ferment overnight in a warm place.",
+            "Step 4: Grate palm jaggery and dissolve it in a little warm water.",
+            "Step 5: Strain the jaggery syrup to remove impurities and add it to the batter.",
+            "Step 6: Add crushed cardamom and mix well to incorporate the flavors.",
+            "Step 7: Heat a dosa tawa and grease it lightly with ghee.",
+            "Step 8: Pour a ladleful of batter onto the tawa and spread it into a thin dosa.",
+            "Step 9: Cook on medium heat until both sides are golden brown.",
+            "Step 10: Serve hot with a dollop of ghee or coconut chutney."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Vallarai Keerai Chappathi – Brahmi Leaves-Infused Chapati",
+        "category": "Breakfast",
+        "image": "images1/VallaraiKeeraiChappathi.jpeg",
+        "ingredients": ["Brahmi Leaves", "Whole Wheat Flour", "Salt", "Water", "Oil"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Clean and finely chop Brahmi leaves, removing any tough stems.",
+            "Step 2: Mix the chopped leaves with whole wheat flour and salt in a bowl.",
+            "Step 3: Add water gradually and knead into a smooth dough.",
+            "Step 4: Divide the dough into small balls and roll them into thin chapatis.",
+            "Step 5: Heat a tawa and cook each chapati on medium heat.",
+            "Step 6: Flip the chapati and drizzle a little oil around the edges.",
+            "Step 7: Cook until both sides are golden brown and slightly crispy.",
+            "Step 8: Serve hot with curd, pickle, or any side dish of your choice.",
+            "Step 9: Repeat the process for the remaining dough.",
+            "Step 10: Store leftover chapatis in an airtight container for up to 2 days."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Kothamalli Sevai – Coriander-Flavored Rice Noodles",
+        "category": "Breakfast",
+        "image": "images1/KothamalliSevai.jpeg",
+        "ingredients": ["Rice Flour", "Fresh Coriander", "Green Chili", "Salt", "Water", "Oil"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Blend fresh coriander and green chili into a smooth paste with a little water.",
+            "Step 2: Mix rice flour with the coriander paste and salt in a bowl.",
+            "Step 3: Boil water and add it to the flour mixture, stirring continuously.",
+            "Step 4: Knead the mixture into a smooth dough while it is still warm.",
+            "Step 5: Fill the dough into a sevai press or idiyappam maker.",
+            "Step 6: Press the dough into thin strands onto idli plates or a steamer tray.",
+            "Step 7: Steam the sevai for 10-12 minutes on medium heat.",
+            "Step 8: Remove from the steamer and let it cool for 2-3 minutes.",
+            "Step 9: Gently separate the strands using a fork or your fingers.",
+            "Step 10: Serve hot with coconut chutney or sambar."
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Mushroom Biryani",
+        "category": "Lunch",
+        "image": "https://gingerskillet.com/wp-content/uploads/2021/03/mushroombiryani_F.jpg",
+        "ingredients": ["Basmati Rice", "Mushrooms", "Onion", "Tomato", "Ginger-Garlic Paste", "Yogurt", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+        "rating": 4.5,
+        "preparation": [
+            "Step 1: Wash and soak basmati rice for 30 minutes. Cook the rice until 70% done and set aside.",
+            "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+            "Step 3: Add chopped tomatoes and cook until they turn soft and mushy.",
+            "Step 4: Add sliced mushrooms and cook until they release moisture and soften.",
+            "Step 5: Add yogurt, turmeric, red chili powder, garam masala, and salt. Mix well and cook for 5 minutes.",
+            "Step 6: Layer the partially cooked rice over the mushroom mixture. Sprinkle mint and coriander leaves on top.",
+            "Step 7: Cover the pan with a tight lid and cook on low heat for 15-20 minutes (dum cooking).",
+            "Step 8: Gently mix the biryani before serving. Serve hot with raita or salan."
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Veg Biryani",
+        "category": "Lunch",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8pNq0DbH9-k8yhhC0Lnb04pELock-pOPqw&s",
+        "ingredients": ["Basmati Rice", "Mixed Vegetables (Carrot, Beans, Peas, Cauliflower)", "Onion", "Tomato", "Ginger-Garlic Paste", "Yogurt", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+        "rating": 4.6,
+        "preparation": [
+            "Step 1: Wash and soak basmati rice for 30 minutes. Cook the rice until 70% done and set aside.",
+            "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+            "Step 3: Add chopped tomatoes and cook until they turn soft and mushy.",
+            "Step 4: Add mixed vegetables and cook for 5-7 minutes until slightly tender.",
+            "Step 5: Add yogurt, turmeric, red chili powder, garam masala, and salt. Mix well and cook for 5 minutes.",
+            "Step 6: Layer the partially cooked rice over the vegetable mixture. Sprinkle mint and coriander leaves on top.",
+            "Step 7: Cover the pan with a tight lid and cook on low heat for 15-20 minutes (dum cooking).",
+            "Step 8: Gently mix the biryani before serving. Serve hot with raita or salan."
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Gobi Rice",
+        "category": "Lunch",
+        "image": "https://i.ytimg.com/vi/J7uy3wPQA-w/maxresdefault.jpg",
+        "ingredients": ["Basmati Rice", "Cauliflower", "Onion", "Green Chilies", "Ginger-Garlic Paste", "Spices", "Coriander Leaves", "Ghee"],
+        "rating": 4.4,
+        "preparation": [
+            "Step 1: Wash and soak basmati rice for 30 minutes. Cook the rice until fully done and set aside.",
+            "Step 2: Heat ghee in a pan and sauté sliced onions until translucent. Add ginger-garlic paste and green chilies, and cook until fragrant.",
+            "Step 3: Add cauliflower florets and cook until they are slightly tender and golden.",
+            "Step 4: Add turmeric, red chili powder, garam masala, and salt. Mix well and cook for 2-3 minutes.",
+            "Step 5: Add the cooked rice to the pan and gently mix to combine with the cauliflower mixture.",
+            "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+            "Step 7: Garnish with fresh coriander leaves.",
+            "Step 8: Serve hot with raita or pickle."
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Parotta",
+        "category": "Lunch",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBFNhhgP5SDY3aFDXhRJ7fmgxQUYJv-2cxmQ&s",
+        "ingredients": ["Maida (All-Purpose Flour)", "Water", "Salt", "Sugar", "Oil"],
+        "rating": 4.7,
+        "preparation": [
+            "Step 1: In a mixing bowl, combine maida, salt, sugar, and water to form a soft dough.",
+            "Step 2: Knead the dough well for 10-15 minutes until it becomes smooth and elastic.",
+            "Step 3: Divide the dough into small balls and coat them with oil. Let them rest for 2 hours.",
+            "Step 4: Flatten each ball into a thin circle using your hands or a rolling pin.",
+            "Step 5: Fold the flattened dough into layers to create a flaky texture.",
+            "Step 6: Roll the layered dough into a spiral shape and flatten it again into a circle.",
+            "Step 7: Cook the parotta on a hot tawa with oil until both sides are golden brown and crispy.",
+            "Step 8: Serve hot with veg kurma or salna."
+        ]
+    },
+        {
+            "id": 6,
+            "name": "Veg Fried Rice",
+            "category": "Lunch",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREs_5FT-5coNK9wyGzbhqkapvV46Lzc7YvCg&s",
+            "ingredients": ["Basmati Rice", "Mixed Vegetables (Carrot, Beans, Peas, Capsicum)", "Onion", "Garlic", "Soy Sauce", "Vinegar", "Spring Onions", "Oil"],
+            "rating": 4.4,
+            "preparation": [
+                "Step 1: Cook basmati rice until fully done, cool it, and set aside.",
+                "Step 2: Heat oil in a wok or pan and sauté finely chopped garlic until fragrant.",
+                "Step 3: Add sliced onions and cook until translucent.",
+                "Step 4: Add mixed vegetables and stir-fry on high heat for 3-4 minutes.",
+                "Step 5: Add soy sauce, vinegar, salt, and pepper. Mix well.",
+                "Step 6: Add the cooked rice and toss gently to combine with the vegetables.",
+                "Step 7: Garnish with chopped spring onions.",
+                "Step 8: Serve hot with manchurian or chili sauce."
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Paneer Biryani",
+            "category": "Lunch",
+            "image": "https://ministryofcurry.com/wp-content/uploads/2023/10/paneer-biryani_-9.jpg",
+            "ingredients": ["Basmati Rice", "Paneer", "Onion", "Tomato", "Ginger-Garlic Paste", "Yogurt", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+            "rating": 4.7,
+            "preparation": [
+                "Step 1: Wash and soak basmati rice for 30 minutes. Cook the rice until 70% done and set aside.",
+                "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+                "Step 3: Add chopped tomatoes and cook until they turn soft and mushy.",
+                "Step 4: Add cubed paneer and cook for 2-3 minutes until lightly browned.",
+                "Step 5: Add yogurt, turmeric, red chili powder, garam masala, and salt. Mix well and cook for 5 minutes.",
+                "Step 6: Layer the partially cooked rice over the paneer mixture. Sprinkle mint and coriander leaves on top.",
+                "Step 7: Cover the pan with a tight lid and cook on low heat for 15-20 minutes (dum cooking).",
+                "Step 8: Gently mix the biryani before serving. Serve hot with raita or salan."
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Tomato Rice",
+            "category": "Lunch",
+            "image": "https://holycowvegan.net/wp-content/uploads/2022/10/tomato-rice-tomato-bath-recipe-11.jpg",
+            "ingredients": ["Basmati Rice", "Tomatoes", "Onion", "Green Chilies", "Ginger-Garlic Paste", "Spices", "Coriander Leaves", "Ghee"],
+            "rating": 4.3,
+            "preparation": [
+                "Step 1: Cook basmati rice until fully done and set aside.",
+                "Step 2: Heat ghee in a pan and sauté sliced onions until translucent. Add ginger-garlic paste and green chilies, and cook until fragrant.",
+                "Step 3: Add chopped tomatoes and cook until they turn soft and mushy.",
+                "Step 4: Add turmeric, red chili powder, garam masala, and salt. Mix well and cook for 2-3 minutes.",
+                "Step 5: Add the cooked rice to the pan and gently mix to combine with the tomato mixture.",
+                "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                "Step 7: Garnish with fresh coriander leaves.",
+                "Step 8: Serve hot with raita or papad."
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Lemon Rice",
+            "category": "Lunch",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsDhP_3GxHU27qgD0whesQEDg-vUFBvFbXWA&s",
+            "ingredients": ["Basmati Rice", "Lemon", "Mustard Seeds", "Curry Leaves", "Green Chilies", "Turmeric", "Peanuts", "Coriander Leaves", "Oil"],
+            "rating": 4.5,
+            "preparation": [
+                "Step 1: Cook basmati rice until fully done and set aside.",
+                "Step 2: Heat oil in a pan and add mustard seeds. Let them splutter.",
+                "Step 3: Add curry leaves, green chilies, and peanuts. Sauté until peanuts turn golden.",
+                "Step 4: Add turmeric powder and mix well.",
+                "Step 5: Add the cooked rice and gently mix to combine with the tempering.",
+                "Step 6: Squeeze fresh lemon juice over the rice and mix well.",
+                "Step 7: Garnish with fresh coriander leaves.",
+                "Step 8: Serve hot with pickle or papad."
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Coconut Rice",
+            "category": "Lunch",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJ7thgkfb22NAd7tqLNGFKK1a-QuVJY6lAWg&s",
+            "ingredients": ["Basmati Rice", "Fresh Coconut", "Mustard Seeds", "Curry Leaves", "Green Chilies", "Cashews", "Coriander Leaves", "Oil"],
+            "rating": 4.4,
+            "preparation": [
+                "Step 1: Cook basmati rice until fully done and set aside.",
+                "Step 2: Heat oil in a pan and add mustard seeds. Let them splutter.",
+                "Step 3: Add curry leaves, green chilies, and cashews. Sauté until cashews turn golden.",
+                "Step 4: Add grated fresh coconut and sauté for 2-3 minutes.",
+                "Step 5: Add the cooked rice and gently mix to combine with the coconut mixture.",
+                "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                "Step 7: Garnish with fresh coriander leaves.",
+                "Step 8: Serve hot with raita or pickle."
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Sambar Rice",
+            "category": "Lunch",
+            "image": "https://www.kannammacooks.com/wp-content/uploads/sambar-sadam-made-with-brown-rice-recipe-1-3.jpg",
+            "ingredients": ["Rice", "Toor Dal", "Sambar Powder", "Tamarind", "Mixed Vegetables", "Mustard Seeds", "Curry Leaves", "Oil"],
+            "rating": 4.6,
+            "preparation": [
+                "Step 1: Cook rice and toor dal together until soft and set aside.",
+                "Step 2: Soak tamarind in water and extract the juice.",
+                "Step 3: Heat oil in a pan and add mustard seeds. Let them splutter.",
+                "Step 4: Add curry leaves and mixed vegetables. Sauté for 2-3 minutes.",
+                "Step 5: Add tamarind juice, sambar powder, and salt. Cook until vegetables are tender.",
+                "Step 6: Add the cooked rice and dal mixture to the sambar and mix well.",
+                "Step 7: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                "Step 8: Serve hot with papad or pickle."
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Curd Rice",
+            "category": "Lunch",
+            "image": "https://palatesdesire.com/wp-content/uploads/2022/04/curd-rice-recipe-card@palates-desire.jpg",
+            "ingredients": ["Rice", "Curd", "Mustard Seeds", "Curry Leaves", "Green Chilies", "Ginger", "Coriander Leaves", "Oil"],
+            "rating": 4.2,
+            "preparation": [
+                "Step 1: Cook rice until soft and set aside to cool.",
+                "Step 2: Mix curd with the cooled rice and add salt to taste.",
+                "Step 3: Heat oil in a pan and add mustard seeds. Let them splutter.",
+                "Step 4: Add curry leaves, green chilies, and grated ginger. Sauté for 1-2 minutes.",
+                "Step 5: Add the tempering to the curd rice and mix well.",
+                "Step 6: Garnish with fresh coriander leaves.",
+                "Step 7: Chill in the refrigerator for 30 minutes before serving.",
+                "Step 8: Serve cold with pickle or papad."
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Pudina Rice",
+            "category": "Lunch",
+            "image": "https://cookingfromheart.com/wp-content/uploads/2020/05/Pudina-Rice-6.jpg",
+            "ingredients": ["Basmati Rice", "Mint Leaves", "Onion", "Green Chilies", "Ginger-Garlic Paste", "Spices", "Coriander Leaves", "Oil"],
+            "rating": 4.3,
+            "preparation": [
+                "Step 1: Cook basmati rice until fully done and set aside.",
+                "Step 2: Heat oil in a pan and sauté sliced onions until translucent. Add ginger-garlic paste and green chilies, and cook until fragrant.",
+                "Step 3: Add mint leaves and sauté for 2-3 minutes until wilted.",
+                "Step 4: Add turmeric, red chili powder, garam masala, and salt. Mix well and cook for 2-3 minutes.",
+                "Step 5: Add the cooked rice to the pan and gently mix to combine with the mint mixture.",
+                "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                "Step 7: Garnish with fresh coriander leaves.",
+                "Step 8: Serve hot with raita or pickle."
+            ]
+        },
+            {
+                "id": 14,
+                "name": "Vegetable Pulao",
+                "category": "Lunch",
+                "image": "https://www.secondrecipe.com/wp-content/uploads/2021/12/DSC_8346.jpg",
+                "ingredients": ["Basmati Rice", "Mixed Vegetables (Carrot, Beans, Peas, Cauliflower)", "Onion", "Ginger-Garlic Paste", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+                "rating": 4.5,
+                "preparation": [
+                    "Step 1: Wash and soak basmati rice for 30 minutes. Drain and set aside.",
+                    "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+                    "Step 3: Add mixed vegetables and sauté for 3-4 minutes until slightly tender.",
+                    "Step 4: Add turmeric, cumin powder, garam masala, and salt. Mix well.",
+                    "Step 5: Add the soaked rice and water (1:2 ratio). Stir gently.",
+                    "Step 6: Cover the pan with a tight lid and cook on low heat until the rice is fully cooked.",
+                    "Step 7: Garnish with mint and coriander leaves.",
+                    "Step 8: Serve hot with raita or pickle."
+                ]
+            },
+            {
+                "id": 15,
+                "name": "Jeera Rice",
+                "category": "Lunch",
+                "image": "https://myfoodstory.com/wp-content/uploads/2018/07/Perfect-Jeera-Rice-Indian-Cumin-Rice-4.jpg",
+                "ingredients": ["Basmati Rice", "Cumin Seeds", "Ghee", "Cashews", "Coriander Leaves"],
+                "rating": 4.3,
+                "preparation": [
+                    "Step 1: Cook basmati rice until fully done and set aside.",
+                    "Step 2: Heat ghee in a pan and add cumin seeds. Let them splutter.",
+                    "Step 3: Add cashews and sauté until golden.",
+                    "Step 4: Add the cooked rice and gently mix to combine with the cumin and cashews.",
+                    "Step 5: Add salt to taste and mix well.",
+                    "Step 6: Cook on low heat for 2-3 minutes, allowing the flavors to blend.",
+                    "Step 7: Garnish with fresh coriander leaves.",
+                    "Step 8: Serve hot with dal or curry."
+                ]
+            },
+            {
+                "id": 16,
+                "name": "Dal Rice",
+                "category": "Lunch",
+                "image": "https://veganbell.com/wp-content/uploads/2024/11/Dal-Chawal-8-1-768x1024.jpg",
+                "ingredients": ["Rice", "Toor Dal", "Turmeric", "Mustard Seeds", "Curry Leaves", "Green Chilies", "Coriander Leaves", "Oil"],
+                "rating": 4.2,
+                "preparation": [
+                    "Step 1: Cook rice and toor dal together until soft and set aside.",
+                    "Step 2: Heat oil in a pan and add mustard seeds. Let them splutter.",
+                    "Step 3: Add curry leaves and green chilies. Sauté for 1-2 minutes.",
+                    "Step 4: Add turmeric powder and mix well.",
+                    "Step 5: Add the cooked rice and dal mixture to the pan and mix well.",
+                    "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                    "Step 7: Garnish with fresh coriander leaves.",
+                    "Step 8: Serve hot with pickle or papad."
+                ]
+            },
+            {
+                "id": 17,
+                "name": "Bisibele Bath",
+                "category": "Lunch",
+                "image": "https://www.theculinarypeace.com/wp-content/uploads/2019/09/eZy-Watermark-24-09-2019-01-35-05PM-2-1.jpg",
+                "ingredients": ["Rice", "Toor Dal", "Mixed Vegetables", "Bisibele Bath Powder", "Tamarind", "Jaggery", "Coconut", "Ghee"],
+                "rating": 4.6,
+                "preparation": [
+                    "Step 1: Cook rice and toor dal together until soft and set aside.",
+                    "Step 2: Soak tamarind in water and extract the juice.",
+                    "Step 3: Heat ghee in a pan and add mixed vegetables. Sauté for 2-3 minutes.",
+                    "Step 4: Add tamarind juice, bisibele bath powder, jaggery, and salt. Cook until vegetables are tender.",
+                    "Step 5: Add the cooked rice and dal mixture to the pan and mix well.",
+                    "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                    "Step 7: Garnish with grated coconut and fresh coriander leaves.",
+                    "Step 8: Serve hot with papad or potato chips."
+                ]
+            },
+            {
+                "id": 18,
+                "name": "Veg Noodles",
+                "category": "Lunch",
+                "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgXFqQyciY3Vd1MtY3Sdgol9ePyp3G8_WxGQ&s",
+                "ingredients": ["Noodles", "Mixed Vegetables (Carrot, Beans, Capsicum)", "Onion", "Garlic", "Soy Sauce", "Vinegar", "Spring Onions", "Oil"],
+                "rating": 4.4,
+                "preparation": [
+                    "Step 1: Boil noodles until al dente, drain, and set aside.",
+                    "Step 2: Heat oil in a wok or pan and sauté finely chopped garlic until fragrant.",
+                    "Step 3: Add sliced onions and cook until translucent.",
+                    "Step 4: Add mixed vegetables and stir-fry on high heat for 3-4 minutes.",
+                    "Step 5: Add soy sauce, vinegar, salt, and pepper. Mix well.",
+                    "Step 6: Add the boiled noodles and toss gently to combine with the vegetables.",
+                    "Step 7: Garnish with chopped spring onions.",
+                    "Step 8: Serve hot with chili sauce or ketchup."
+                ]
+            },
+            {
+                "id": 19,
+                "name": "Kothu Parotta (Veg)",
+                "category": "Lunch",
+                "image": "https://www.licious.in/blog/wp-content/uploads/2020/06/KUTTU-PORATTA.jpg",
+                "ingredients": ["Parotta", "Onion", "Tomato", "Green Chilies", "Spices", "Coriander Leaves", "Oil"],
+                "rating": 4.7,
+                "preparation": [
+                    "Step 1: Shred parottas into small pieces and set aside.",
+                    "Step 2: Heat oil in a pan and sauté sliced onions until golden brown.",
+                    "Step 3: Add chopped tomatoes and green chilies. Cook until tomatoes turn soft.",
+                    "Step 4: Add turmeric, red chili powder, garam masala, and salt. Mix well.",
+                    "Step 5: Add the shredded parotta pieces and mix well with the masala.",
+                    "Step 6: Cook on low heat for 5 minutes, allowing the flavors to blend.",
+                    "Step 7: Garnish with fresh coriander leaves.",
+                    "Step 8: Serve hot with raita or salna."
+                ]
+            },
+                {
+                    "id": 22,
+                    "name": "Mushroom Fried Rice",
+                    "category": "Lunch",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3DLR7FNo69bGDfs1yeYHjwZz8ekJmemNjXQ&s",
+                    "ingredients": ["Basmati Rice", "Mushrooms", "Onion", "Garlic", "Soy Sauce", "Vinegar", "Spring Onions", "Oil"],
+                    "rating": 4.5,
+                    "preparation": [
+                        "Step 1: Cook basmati rice until fully done, cool it, and set aside.",
+                        "Step 2: Heat oil in a wok or pan and sauté finely chopped garlic until fragrant.",
+                        "Step 3: Add sliced onions and cook until translucent.",
+                        "Step 4: Add sliced mushrooms and stir-fry on high heat for 3-4 minutes.",
+                        "Step 5: Add soy sauce, vinegar, salt, and pepper. Mix well.",
+                        "Step 6: Add the cooked rice and toss gently to combine with the mushrooms.",
+                        "Step 7: Garnish with chopped spring onions.",
+                        "Step 8: Serve hot with manchurian or chili sauce."
+                    ]
+                },
+                {
+                    "id": 23,
+                    "name": "Brinjal Biryani",
+                    "category": "Lunch",
+                    "image": "https://palatesdesire.com/wp-content/uploads/2022/07/baingan-biryani-recipe@palates-desire-1.jpg",
+                    "ingredients": ["Basmati Rice", "Brinjal (Eggplant)", "Onion", "Tomato", "Ginger-Garlic Paste", "Yogurt", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+                    "rating": 4.4,
+                    "preparation": [
+                        "Step 1: Wash and soak basmati rice for 30 minutes. Cook the rice until 70% done and set aside.",
+                        "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+                        "Step 3: Add chopped tomatoes and cook until they turn soft and mushy.",
+                        "Step 4: Add sliced brinjal and cook until tender.",
+                        "Step 5: Add yogurt, turmeric, red chili powder, garam masala, and salt. Mix well and cook for 5 minutes.",
+                        "Step 6: Layer the partially cooked rice over the brinjal mixture. Sprinkle mint and coriander leaves on top.",
+                        "Step 7: Cover the pan with a tight lid and cook on low heat for 15-20 minutes (dum cooking).",
+                        "Step 8: Gently mix the biryani before serving. Serve hot with raita or salan."
+                    ]
+                },
+                {
+                    "id": 24,
+                    "name": "Peas Pulao",
+                    "category": "Lunch",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXDBw5tQ_AImlzRqjMDHGlgzmHPTBAbhx6Rg&s",
+                    "ingredients": ["Basmati Rice", "Green Peas", "Onion", "Ginger-Garlic Paste", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+                    "rating": 4.3,
+                    "preparation": [
+                        "Step 1: Wash and soak basmati rice for 30 minutes. Drain and set aside.",
+                        "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+                        "Step 3: Add green peas and sauté for 2-3 minutes.",
+                        "Step 4: Add turmeric, cumin powder, garam masala, and salt. Mix well.",
+                        "Step 5: Add the soaked rice and water (1:2 ratio). Stir gently.",
+                        "Step 6: Cover the pan with a tight lid and cook on low heat until the rice is fully cooked.",
+                        "Step 7: Garnish with mint and coriander leaves.",
+                        "Step 8: Serve hot with raita or pickle."
+                    ]
+                },
+                {
+                    "id": 25,
+                    "name": "Cashew Pulao",
+                    "category": "Lunch",
+                    "image": "https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2017/11/Cashew-Pulao-1.jpg?resize=720%2C480&ssl=1",
+                    "ingredients": ["Basmati Rice", "Cashews", "Onion", "Ginger-Garlic Paste", "Spices", "Mint Leaves", "Coriander Leaves", "Ghee"],
+                    "rating": 4.5,
+                    "preparation": [
+                        "Step 1: Wash and soak basmati rice for 30 minutes. Drain and set aside.",
+                        "Step 2: Heat ghee in a pan and sauté sliced onions until golden brown. Add ginger-garlic paste and cook until fragrant.",
+                        "Step 3: Add cashews and sauté until golden.",
+                        "Step 4: Add turmeric, cumin powder, garam masala, and salt. Mix well.",
+                        "Step 5: Add the soaked rice and water (1:2 ratio). Stir gently.",
+                        "Step 6: Cover the pan with a tight lid and cook on low heat until the rice is fully cooked.",
+                        "Step 7: Garnish with mint and coriander leaves.",
+                        "Step 8: Serve hot with raita or pickle."
+                    ]
+                },
+                {
+                    "id": 26,
+                    "name": "Podi Rice",
+                    "category": "Lunch",
+                    "image": "https://www.indianveggiedelight.com/wp-content/uploads/2019/06/milgai_podi_rice_full.jpg",
+                    "ingredients": ["Rice", "Idli Podi", "Ghee", "Curry Leaves", "Coriander Leaves"],
+                    "rating": 4.2,
+                    "preparation": [
+                        "Step 1: Cook rice until fully done and set aside.",
+                        "Step 2: Heat ghee in a pan and add curry leaves. Sauté for 1-2 minutes.",
+                        "Step 3: Add idli podi and mix well.",
+                        "Step 4: Add the cooked rice and gently mix to combine with the podi mixture.",
+                        "Step 5: Add salt to taste and mix well.",
+                        "Step 6: Cook on low heat for 2-3 minutes, allowing the flavors to blend.",
+                        "Step 7: Garnish with fresh coriander leaves.",
+                        "Step 8: Serve hot with curd or pickle."
+                    ]
+                },
+                {
+                    "id": 27,
+                    "name": "Thayir Semiya",
+                    "category": "Lunch",
+                    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqxxmrAj8OtZSupCV377BwP55OXANo4dOj9Q&s",
+                    "ingredients": ["Vermicelli", "Curd", "Mustard Seeds", "Curry Leaves", "Green Chilies", "Ginger", "Coriander Leaves", "Oil"],
+                    "rating": 4.3,
+                    "preparation": [
+                        "Step 1: Cook vermicelli until soft, drain, and set aside to cool.",
+                        "Step 2: Mix curd with the cooled vermicelli and add salt to taste.",
+                        "Step 3: Heat oil in a pan and add mustard seeds. Let them splutter.",
+                        "Step 4: Add curry leaves, green chilies, and grated ginger. Sauté for 1-2 minutes.",
+                        "Step 5: Add the tempering to the curd vermicelli and mix well.",
+                        "Step 6: Garnish with fresh coriander leaves.",
+                        "Step 7: Chill in the refrigerator for 30 minutes before serving.",
+                        "Step 8: Serve cold with pickle or papad."
+                    ]
+                },
+                    {
+                        "id": 1,
+                        "name": "Chapati with Kurma",
+                        "category": "Dinner",
+                        "image": "https://gingerskillet.com/wp-content/uploads/2021/02/VEGKURMA-4.webp",
+                        "ingredients": ["Whole Wheat Flour", "Water", "Salt", "Vegetables (Carrot, Beans, Potato)", "Coconut", "Onion", "Tomato", "Spices"],
+                        "rating": 4.5,
+                        "preparation": [
+                            "Step 1: Mix whole wheat flour, water, and salt to make a soft dough. Let it rest for 15 minutes.",
+                            "Step 2: Divide the dough into small balls and roll them into thin circles using a rolling pin.",
+                            "Step 3: Cook the chapatis on a hot tawa until both sides are golden brown.",
+                            "Step 4: For the kurma, sauté onions, tomatoes, and spices in oil until fragrant.",
+                            "Step 5: Add chopped vegetables and cook until tender.",
+                            "Step 6: Grind coconut with spices to make a paste and add it to the vegetables.",
+                            "Step 7: Simmer the kurma for 10 minutes until the flavors blend.",
+                            "Step 8: Serve hot chapatis with the vegetable kurma."
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "Parotta with Salna",
+                        "category": "Dinner",
+                        "image": "https://i.pinimg.com/564x/47/74/86/477486f48831cbea4c5298347513e033.jpg",
+                        "ingredients": ["Maida", "Water", "Oil", "Onion", "Tomato", "Coconut", "Spices"],
+                        "rating": 4.6,
+                        "preparation": [
+                            "Step 1: Knead maida, water, and oil into a soft dough. Rest for 30 minutes.",
+                            "Step 2: Divide the dough into small balls and roll them into thin sheets.",
+                            "Step 3: Fold the sheets into layers and roll them into spirals.",
+                            "Step 4: Cook the parottas on a hot tawa with oil until crispy.",
+                            "Step 5: For the salna, sauté onions, tomatoes, and spices in oil.",
+                            "Step 6: Add coconut paste and water to make a gravy.",
+                            "Step 7: Simmer the salna for 10 minutes until thick.",
+                            "Step 8: Serve hot parottas with spicy salna."
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "Dosa with Chutney & Sambar",
+                        "category": "Dinner",
+                        "image": "https://i.ytimg.com/vi/T8ccoanOnNY/maxresdefault.jpg",
+                        "ingredients": ["Rice", "Urad Dal", "Fenugreek Seeds", "Coconut", "Chana Dal", "Tamarind", "Vegetables", "Spices"],
+                        "rating": 4.8,
+                        "preparation": [
+                            "Step 1: Soak rice, urad dal, and fenugreek seeds for 6 hours. Grind into a smooth batter and ferment overnight.",
+                            "Step 2: Spread the batter on a hot tawa to make thin dosas. Cook until crispy.",
+                            "Step 3: For coconut chutney, grind coconut, chana dal, and green chilies with water.",
+                            "Step 4: Temper the chutney with mustard seeds and curry leaves.",
+                            "Step 5: For sambar, cook vegetables with tamarind, sambar powder, and water.",
+                            "Step 6: Add cooked toor dal to the vegetables and simmer.",
+                            "Step 7: Temper the sambar with mustard seeds, fenugreek, and asafoetida.",
+                            "Step 8: Serve hot dosas with coconut chutney and sambar."
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "Set Dosa with Vegetable Kurma",
+                        "category": "Dinner",
+                        "image": "https://144943949.cdn6.editmysite.com/uploads/1/4/4/9/144943949/s588857968198390876_p233_i1_w300.png",
+                        "ingredients": ["Rice", "Urad Dal", "Poha", "Vegetables", "Coconut", "Spices"],
+                        "rating": 4.7,
+                        "preparation": [
+                            "Step 1: Soak rice, urad dal, and poha for 6 hours. Grind into a smooth batter and ferment overnight.",
+                            "Step 2: Pour ladles of batter on a hot tawa to make thick, soft dosas.",
+                            "Step 3: For the kurma, sauté onions, tomatoes, and spices in oil.",
+                            "Step 4: Add chopped vegetables and cook until tender.",
+                            "Step 5: Grind coconut with spices to make a paste and add it to the vegetables.",
+                            "Step 6: Simmer the kurma for 10 minutes until the flavors blend.",
+                            "Step 7: Cook the set dosas until golden brown on both sides.",
+                            "Step 8: Serve hot set dosas with vegetable kurma."
+                        ]
+                    },
+                    {
+                        "id": 5,
+                        "name": "Idiyappam with Coconut Milk",
+                        "category": "Dinner",
+                        "image": "https://c8.alamy.com/comp/2AGKC17/indian-breakfast-idiyappam-with-coconut-milk-2AGKC17.jpg",
+                        "ingredients": ["Rice Flour", "Water", "Salt", "Coconut Milk", "Sugar"],
+                        "rating": 4.4,
+                        "preparation": [
+                            "Step 1: Boil water with salt and mix it with rice flour to make a soft dough.",
+                            "Step 2: Press the dough through an idiyappam maker to form noodles.",
+                            "Step 3: Steam the idiyappam in a steamer for 10 minutes.",
+                            "Step 4: Heat coconut milk with sugar until warm.",
+                            "Step 5: Fluff the steamed idiyappam with a fork.",
+                            "Step 6: Pour the sweetened coconut milk over the idiyappam.",
+                            "Step 7: Serve warm as a comforting dinner.",
+                            "Step 8: Optionally, add a pinch of cardamom for extra flavor."
+                        ]
+                    },
+                    {
+                        "id": 6,
+                        "name": "Kothu Parotta (Veg)",
+                        "category": "Dinner",
+                        "image": "https://nishkitchen.com/wp-content/uploads/2023/08/Kothu-Parotta-1B.jpg",
+                        "ingredients": ["Parotta", "Vegetables", "Onion", "Tomato", "Spices"],
+                        "rating": 4.6,
+                        "preparation": [
+                            "Step 1: Shred leftover parottas into small pieces.",
+                            "Step 2: Sauté onions, tomatoes, and spices in oil until fragrant.",
+                            "Step 3: Add chopped vegetables and cook until tender.",
+                            "Step 4: Add the shredded parotta pieces and mix well.",
+                            "Step 5: Cook on high heat, tossing continuously for 5 minutes.",
+                            "Step 6: Add a splash of water if needed to prevent sticking.",
+                            "Step 7: Garnish with coriander leaves and serve hot.",
+                            "Step 8: Serve with raita or chutney for extra flavor."
+                        ]
+                    },
+                    {
+                        "id": 8,
+                        "name": "Adai with Avial",
+                        "category": "Dinner",
+                        "image": "https://images.squarespace-cdn.com/content/v1/578753d7d482e9c3a909de40/1612443119259-9JLWMJCN7WM0966WWFDX/palak-adai-dosa.jpg?format=2500w",
+                        "ingredients": ["Rice", "Toor Dal", "Chana Dal", "Urad Dal", "Vegetables", "Coconut", "Curd", "Spices"],
+                        "rating": 4.7,
+                        "preparation": [
+                            "Step 1: Soak rice and dals for 6 hours. Grind into a coarse batter.",
+                            "Step 2: Add chopped onions, curry leaves, and spices to the batter.",
+                            "Step 3: Spread the batter on a hot tawa to make thick adais.",
+                            "Step 4: Cook until golden brown on both sides.",
+                            "Step 5: For avial, cook mixed vegetables with curd and coconut paste.",
+                            "Step 6: Add curry leaves and coconut oil for flavor.",
+                            "Step 7: Simmer the avial until the vegetables are tender.",
+                            "Step 8: Serve hot adai with avial."
+                        ]
+                    },
+                    {
+                        "id": 9,
+                        "name": "Uthappam with Kara Chutney",
+                        "category": "Dinner",
+                        "image": "https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2021/08/5-Taste-Uthappam-2.jpg?fit=684%2C1024&ssl=1",
+                        "ingredients": ["Rice", "Urad Dal", "Onion", "Tomato", "Green Chilies", "Coconut", "Spices"],
+                        "rating": 4.6,
+                        "preparation": [
+                            "Step 1: Use fermented dosa batter to make uthappam.",
+                            "Step 2: Pour ladles of batter on a hot tawa and spread thickly.",
+                            "Step 3: Top with chopped onions, tomatoes, and green chilies.",
+                            "Step 4: Cook until the base is crispy and the top is cooked.",
+                            "Step 5: For kara chutney, grind coconut, roasted chana dal, and red chilies.",
+                            "Step 6: Temper the chutney with mustard seeds and curry leaves.",
+                            "Step 7: Serve hot uthappam with spicy kara chutney.",
+                            "Step 8: Optionally, add grated carrot or capsicum as toppings."
+                        ]
+                    },
+                    {
+                        "id": 10,
+                        "name": "Vella Paniyaram with Coconut Chutney",
+                        "category": "Dinner",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHGWw7a9TeKdmGHcrYag3pJQ32CkPgFuaRbg&s",
+                        "ingredients": ["Rice Flour", "Jaggery", "Coconut", "Cardamom", "Urad Dal", "Chana Dal", "Spices"],
+                        "rating": 4.4,
+                        "preparation": [
+                            "Step 1: Mix rice flour, jaggery syrup, and cardamom powder to make a batter.",
+                            "Step 2: Heat a paniyaram pan and grease the molds with oil.",
+                            "Step 3: Pour the batter into the molds and cook on medium heat.",
+                            "Step 4: Flip the paniyaram to cook evenly on both sides.",
+                            "Step 5: For coconut chutney, grind coconut, urad dal, and green chilies.",
+                            "Step 6: Temper the chutney with mustard seeds and curry leaves.",
+                            "Step 7: Serve hot vella paniyaram with coconut chutney.",
+                            "Step 8: Optionally, add grated coconut to the paniyaram batter."
+                        ]
+                    },
+                    {
+                        "id": 11,
+                        "name": "Masala Dosa",
+                        "category": "Dinner",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPhZFMnmnCwPOJBM0jUUcr2qLF1q10-o3RQ&s",
+                        "ingredients": ["Rice", "Urad Dal", "Potato", "Onion", "Spices"],
+                        "rating": 4.8,
+                        "preparation": [
+                            "Step 1: Use fermented dosa batter to make thin dosas.",
+                            "Step 2: Spread the batter on a hot tawa and cook until crispy.",
+                            "Step 3: For the masala, sauté onions, mustard seeds, and curry leaves.",
+                            "Step 4: Add boiled and mashed potatoes with turmeric and salt.",
+                            "Step 5: Cook the masala until well combined.",
+                            "Step 6: Place a portion of the masala on the dosa and fold it.",
+                            "Step 7: Serve hot with coconut chutney and sambar.",
+                            "Step 8: Optionally, add grated carrot or beetroot to the masala."
+                        ]
+                    },
+                    {
+                        "id": 12,
+                        "name": "Ragi Dosa with Tomato Chutney",
+                        "category": "Dinner",
+                        "image": "https://yummyindiankitchen.com/wp-content/uploads/2020/11/ragi-dosa-recipe-instant-ragi-dosa-500x500.jpg",
+                        "ingredients": ["Ragi Flour", "Rice Flour", "Urad Dal", "Tomato", "Onion", "Spices"],
+                        "rating": 4.5,
+                        "preparation": [
+                            "Step 1: Mix ragi flour, rice flour, and urad dal batter to make a smooth mixture.",
+                            "Step 2: Spread the batter on a hot tawa to make thin dosas.",
+                            "Step 3: Cook until crispy on both sides.",
+                            "Step 4: For tomato chutney, sauté tomatoes, onions, and spices.",
+                            "Step 5: Grind the mixture into a smooth chutney.",
+                            "Step 6: Temper the chutney with mustard seeds and curry leaves.",
+                            "Step 7: Serve hot ragi dosa with tangy tomato chutney.",
+                            "Step 8: Optionally, add garlic or ginger to the chutney."
+                        ]
+                    },
+                    {
+                        "id": 13,
+                        "name": "Vegetable Kuzhi Paniyaram",
+                        "category": "Dinner",
+                        "image": "https://i0.wp.com/cookingfromheart.com/wp-content/uploads/2018/12/Vegetable-Paniyaram-5.jpg?resize=683%2C1024&ssl=1",
+                        "ingredients": ["Rice", "Urad Dal", "Vegetables", "Onion", "Spices"],
+                        "rating": 4.6,
+                        "preparation": [
+                            "Step 1: Use fermented dosa batter to make kuzhi paniyaram.",
+                            "Step 2: Add chopped vegetables and onions to the batter.",
+                            "Step 3: Heat a paniyaram pan and grease the molds with oil.",
+                            "Step 4: Pour the batter into the molds and cook on medium heat.",
+                            "Step 5: Flip the paniyaram to cook evenly on both sides.",
+                            "Step 6: Serve hot with coconut chutney or sambar.",
+                            "Step 7: Optionally, add grated carrot or capsicum to the batter.",
+                            "Step 8: Garnish with coriander leaves before serving."
+                        ]
+                    },
+                    {
+                        "id": 14,
+                        "name": "Thavala Vadai",
+                        "category": "Dinner",
+                        "image": "https://i.ytimg.com/vi/uTIel9elqwc/sddefault.jpg",
+                        "ingredients": ["Lentils", "Rice Flour", "Onion", "Green Chilies", "Spices"],
+                        "rating": 4.4,
+                        "preparation": [
+                            "Step 1: Soak lentils for 4 hours and grind into a coarse batter.",
+                            "Step 2: Add rice flour, chopped onions, and green chilies to the batter.",
+                            "Step 3: Shape the batter into small vadas using your hands.",
+                            "Step 4: Heat oil in a pan and deep-fry the vadas until golden brown.",
+                            "Step 5: Drain excess oil on a paper towel.",
+                            "Step 6: Serve hot with coconut chutney or sambar.",
+                            "Step 7: Optionally, add curry leaves or grated ginger to the batter.",
+                            "Step 8: Garnish with chopped coriander leaves before serving."
+                        ]
+                    },
+                    {
+                        "id": 15,
+                        "name": "Kambu Dosai with Kara Chutney",
+                        "category": "Dinner",
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwqVa3r-MBylpqyfJgLqmyoV7kMb-EhwapdQ&s",
+                        "ingredients": ["Pearl Millet", "Rice", "Urad Dal", "Coconut", "Spices"],
+                        "rating": 4.5,
+                        "preparation": [
+                            "Step 1: Soak pearl millet, rice, and urad dal for 6 hours. Grind into a smooth batter.",
+                            "Step 2: Ferment the batter overnight.",
+                            "Step 3: Spread the batter on a hot tawa to make thin dosas.",
+                            "Step 4: Cook until crispy on both sides.",
+                            "Step 5: For kara chutney, grind coconut, roasted chana dal, and red chilies.",
+                            "Step 6: Temper the chutney with mustard seeds and curry leaves.",
+                            "Step 7: Serve hot kambu dosai with spicy kara chutney.",
+                            "Step 8: Optionally, add chopped onions or green chilies to the dosa batter."
+                        ]
+                    }        
+ ]
+    
