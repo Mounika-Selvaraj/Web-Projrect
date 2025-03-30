@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Delight</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Restaurant Delight Logo">
+                <span>Foodi HUB</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="/backend/index.html">Add Recipe</a></li>
+            </ul>
+            <div class="nav-icons">
+                <button id="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+     <!-- Hero Section -->
+     <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Restaurant Delight</h1>
+            <p>Experience the best flavors with our delicious menu crafted with love.</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">View Menu</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Dishes Section -->
+    <section class="featured-dishes">
+        <h2>Featured Dishes</h2>
+        <p>Explore our most popular dishes, crafted with love and fresh ingredients.</p>
+        
+        <div class="dishes-container">
+            <div class="dish-card">
+                <img src="assets/briyani.jpg" alt="Briyani">
+                <h3>Briyani</h3>
+                <p>A fragrant and flavorful rice dish cooked with aromatic spices, tender meat, and saffron.</p>
+                <a href="#menu" class="btn btn-primary">View Details</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="assets/grilled-salmon.jpg" alt="Grilled Salmon">
+                <h3>Grilled Salmon</h3>
+                <p>Perfectly grilled salmon fillet with a crispy exterior and juicy, flaky interior, served with lemon butter sauce.</p>
+                <a href="#menu" class="btn btn-primary">View Details</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="assets/pizza.jpg" alt="Pizza">
+                <h3>Pizza</h3>
+                <p>Classic wood-fired pizza with a crispy crust, rich tomato sauce, melted cheese, and fresh toppings..</p>
+                <a href="#menu" class="btn btn-primary">View Details</a>
+            </div>
+
+            <div class="dish-card">
+                <img src="assets/cake.jpg" alt="Cake">
+                <h3>Cakes</h3>
+                <p>Moist and decadent cake layered with creamy frosting, perfect for a sweet indulgence..</p>
+                <a href="#menu" class="btn btn-primary">View Details</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section id ="about" class="about-us">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="assets/restaurant-interior.jpg" alt="Restaurant Delight Interior">
+            </div>
+            <div class="about-content">
+                <h2>About Us</h2>
+                <p>Welcome to <strong>Foodi Hub</strong>, where passion meets flavor! We take pride in serving a diverse range of mouthwatering dishes, from aromatic biryanis and sizzling grilled salmon to cheesy pizzas and delightful desserts.</p>
+                <p>At Foodi Hub, we blend quality ingredients with expert craftsmanship to create an unforgettable dining experience. Whether you're here for a hearty meal or a quick bite, our warm ambiance and exceptional service ensure every visit is special.</p>
+                <p>Come and join us at <strong>Foodi Hub </strong>,Where Every Bite Tells a Story!</p>
+                <a href="/about/about.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Menu Highlights Section -->
+    <section id="menu" class="menu-highlights">
+        <h2>Our Menu Highlights</h2>
+        <p>Explore our carefully curated menu with a variety of delicious meals.</p>
+        <div class="menu-grid">
+
+            <div class="menu-item">
+                <img src="assets/veg.jpeg" alt="Breakfast Menu">
+                <div class="menu-overlay">
+                    <h3>veg-menu</h3>
+                    <p>Start your day with a delightful breakfast.</p>
+                    <a href="/veg_menus/veg.html" class="btn">View More</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="assets/nonveg.jpeg" alt="Lunch Menu">
+                <div class="menu-overlay">
+                    <h3>Non-Veg</h3>
+                    <p>A perfect selection of delicious lunch options.</p>
+                    <a href="/nonveg/nonveg.html" class="btn">View More</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="assets/dessert.jpeg" alt="Dinner Menu">
+                <div class="menu-overlay">
+                    <h3>Dessert</h3>
+                    <p>Enjoy an exquisite dinner experience.</p>
+                    <a href="/dessert/dessert.html" class="btn">View More</a>
+                </div>
+            </div>
+
+            <div class="menu-item">
+                <img src="assets/juice.jpeg" alt="Drinks Menu">
+                <div class="menu-overlay">
+                    <h3>Drinks/Snacks</h3>
+                    <p>Refreshing drinks for every occasion.</p>
+                    <a href="/Drinks and snacks/dink_snack.html" class="btn">View More</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+     <!-- Dish of the Day Section -->
+     <section class="dish-of-the-day">
+        <h2>Dish of the Day</h2>
+        <div class="dish-container">
+            <img id="dish-image" src="assets/Butter_chicken.jpeg" alt="Dish of the Day">
+            <div class="dish-details">
+                <h3 id="dish-name">Spaghetti Carbonara</h3>
+                <p id="dish-description">A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.</p>
+                <p><strong>Cooking Time:</strong> <span id="dish-time">25 minutes</span></p>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Customer Love ❤️</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <img id="customer-img" src="assets/customer1.jpg" alt="Customer Image">
+                <p id="customer-quote">"The best dining experience ever! The food was amazing and the service was top-notch!"</p>
+                <h4 id="customer-name">- Sarah Johnson</h4>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+            </div>
+        </div>
+
+        <!-- Navigation Buttons -->
+        <button class="prev-btn">❮</button>
+        <button class="next-btn">❯</button>
+    </section>
+        
+    <!-- Contact & Location Section -->
+    <section id="contact" class="contact-location">
+        <h2>Contact & Location 📍</h2>
+        
+        <div class="contact-container">
+            <!-- Contact Details -->
+            <div class="contact-info">
+                <h3>Get in Touch</h3>
+                <p><strong>📍 Address:</strong> K.S.R College of Technology, Tiruchengode, Namakkal, Tamil Nadu 637215</p>
+                <p><strong>📞 Phone:</strong> +91 98765 43210</p>
+                <p><strong>📧 Email:</strong> info@restaurantdelight.com</p>
+                <p><strong>🕒 Opening Hours:</strong> Mon-Sun: 10 AM - 10 PM</p>
+            </div>
+
+            <!-- Google Map Embed -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.598843578175!2d77.8975365747493!3d11.342438249699708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf91a5e840f8b%3A0x37b9e0a5e8fb60dd!2sK.S.R%20College%20of%20Technology!5e0!3m2!1sen!2sin!4v1710249479247!5m2!1sen!2sin" 
+                    width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h3>Send Us a Message</h3>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <p id="formMessage"></p>
+        </div>  
+
+    </section>
+     <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-container">
+            
+            <!-- Footer Branding -->
+            <div class="footer-brand">
+                <img src="assets/logo.png" alt="Restaurant Logo">
+                <p>Delight your taste buds with our delicious flavors.</p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><strong>📍 Address:</strong>Tiruchengode, Namakkal-637215</p>
+                <p><strong>📞 Phone:</strong> +91 6369418897</p>
+                <p><strong>📧 Email:</strong> info@restaurantdelight.com</p>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="assets/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="assets/twitter.png" alt="Twitter"></a>
+                    <a href="#"><img src="assets/instagram.png" alt="Instagram"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright Notice -->
+        <div class="footer-bottom">
+            <p>© 2024 Restaurant Delight. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function(event) {
+        event.preventDefault();  // Prevent default form submission
+    
+        // Get input values
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+    
+        // Encode the message to be URL-safe
+        var subject = encodeURIComponent("New Contact Form Message");
+        var body = encodeURIComponent("Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message);
+    
+        // Open mail client with pre-filled email
+        window.location.href = `mailto:mounika82005@gmail.com?subject=${subject}&body=${body}`;
+    });
+    </script>
+</html>

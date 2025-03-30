@@ -1,0 +1,918 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 30px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family:Arial, sans-serif;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    padding-left:  0 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+.nav-icons {
+    display: flex;
+    align-items: center;
+}
+
+#dark-mode-toggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background: #333;
+        width: 200px;
+        text-align: right;
+        padding: 10px 0;
+    }
+    
+    .nav-links li {
+        margin: 10px 20px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+/* Smooth Scrolling Effect */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ======= Hero Section ======= */
+.hero {
+    height: 100vh;
+    background: url('assets/home.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    padding: 0 20px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 25px;
+}
+
+/* ======= Buttons ======= */
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #ffcc00;
+    color: #333;
+}
+
+.btn-primary:hover {
+    background: #ffaa00;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background: #fff;
+    color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Dark Mode */
+.dark-mode .hero {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGGCLCBf9PS8YXD1p24fm3V-5GCHPsWwsew&s') no-repeat center center/cover;
+}
+
+.dark-mode .hero::before {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+/* ======= Featured Dishes Section ======= */
+.featured-dishes {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f8f8;
+}
+
+.featured-dishes h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.featured-dishes p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* ======= Dishes Grid ======= */
+.dishes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.dish-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.dish-card:hover {
+    transform: translateY(-5px);
+}
+
+.dish-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.dish-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 15px 0;
+}
+
+.dish-card p {
+    font-size: 1rem;
+    color: #666;
+    padding: 0 10px;
+}
+
+/* ======= Buttons ======= */
+.btn {
+    display: inline-block;
+    margin: 15px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #ffcc00;
+    color: #333;
+}
+
+.btn-primary:hover {
+    background: #ffaa00;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dishes-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ======= About Us Section ======= */
+.about-us {
+    background: #fff;
+    padding: 60px 20px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ======= Image Styling ======= */
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+/* ======= Content Styling ======= */
+.about-content {
+    max-width: 550px;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+/* ======= Button Styling ======= */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary {
+    background: #ffcc00;
+    color: #333;
+}
+
+.btn-primary:hover {
+    background: #ffaa00;
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-image img {
+        max-width: 100%;
+    }
+}
+
+
+/* ======= Menu Highlights Section ======= */
+.menu-highlights {
+    text-align: center;
+    padding: 60px 20px;
+    background: #fff;
+}
+
+.menu-highlights h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.menu-highlights p {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* ======= Grid Layout ======= */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* ======= Menu Item Styling ======= */
+.menu-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.menu-item:hover img {
+    transform: scale(1.1);
+}
+
+/* ======= Overlay Effect ======= */
+.menu-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.menu-overlay h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.menu-overlay p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+/* ======= Button Styling ======= */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    background: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffaa00;
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .menu-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* ======= Dish of the Day Section ======= */
+.dish-of-the-day {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.dish-of-the-day h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ======= Dish Container Styling ======= */
+.dish-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.dish-container:hover {
+    transform: scale(1.02);
+}
+
+/* ======= Dish Image Styling ======= */
+.dish-container img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* ======= Dish Details Styling ======= */
+.dish-details h3 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.dish-details p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .dish-container {
+        max-width: 90%;
+    }
+}
+
+/* ======= Testimonials Section ======= */
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ======= Testimonial Card Styling ======= */
+.testimonial-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-container:hover {
+    transform: scale(1.02);
+}
+
+/* ======= Customer Image ======= */
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* ======= Testimonial Text Styling ======= */
+.testimonial p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* ======= Star Rating Styling ======= */
+.stars {
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+/* ======= Testimonials Section ======= */
+.testimonials {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    position: relative;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ======= Testimonial Card Styling ======= */
+.testimonial-container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial-container:hover {
+    transform: scale(1.02);
+}
+
+/* ======= Customer Image ======= */
+.testimonial img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+/* ======= Testimonial Text Styling ======= */
+.testimonial p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.testimonial h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+/* ======= Star Rating Styling ======= */
+.stars {
+    font-size: 1.5rem;
+    color: #FFD700;
+}
+
+/* ======= Navigation Buttons ======= */
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.prev-btn:hover, .next-btn:hover {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .testimonial-container {
+        max-width: 90%;
+    }
+}
+/* ======= Contact & Location Section ======= */
+.contact-location {
+    text-align: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+}
+
+.contact-location h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* ======= Contact Container Styling ======= */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    gap: 20px;
+}
+
+/* ======= Contact Details Styling ======= */
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h3 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* ======= Google Maps Styling ======= */
+.map {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* ======= Contact Form Styling ======= */
+.contact-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 {
+    font-size: 1.8rem;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background: #ff5722;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #e64a19;
+}
+
+/* ======= Form Success Message ======= */
+#formMessage {
+    font-size: 1.2rem;
+    color: green;
+    margin-top: 10px;
+}
+
+/* ======= Responsive Design ======= */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+/* ======= Footer Section Styling ======= */
+.footer {
+    background: #222;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ======= Footer Branding ======= */
+.footer-brand {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-brand img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-brand p {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+/* ======= Quick Links ======= */
+.footer-links {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-links h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin: 8px 0;
+}
+
+.footer-links ul li a {
+    color: #ff5722;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+}
+
+.footer-links ul li a:hover {
+    color: #e64a19;
+}
+
+/* ======= Contact Details ======= */
+.footer-contact {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-contact h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-contact p {
+    font-size: 1.1rem;
+    color: #bbb;
+}
+
+/* ======= Social Media Icons ======= */
+.footer-social {
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-social h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a img {
+    width: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-icons a:hover img {
+    transform: scale(1.2);
+}
+
+/* ======= Copyright Notice ======= */
+.footer-bottom {
+    background: #111;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    font-size: 1rem;
+    color: #888;
+}
+
