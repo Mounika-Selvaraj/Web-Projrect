@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Recipe</title>
+    <link rel="stylesheet" href="login.css">
+    <style>
+        .recipe-form {
+            max-width: 800px;
+            margin: 100px auto;
+            padding: 30px;
+            background:#e4ebf3;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .recipe-form h1 {
+            text-align: center;
+            color: #7d2ae8;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .form-group input, 
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #d11818;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .ingredient-input, .step-input {
+            display: flex;
+            margin-bottom: 10px;
+        }
+        .ingredient-input input, 
+        .step-input input {
+            flex-grow: 1;
+            margin-right: 10px;
+        }
+        .add-btn {
+            background: #7d2ae8;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+        .submit-btn {
+            background: #7d2ae8;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            display: block;
+            margin: 30px auto 0;
+            width: 200px;
+        }
+        #ingredients-list, #steps-list {
+            margin-bottom: 20px;
+        }
+        .ingredient-item, .step-item {
+            background: #f5f5f5;
+            padding: 8px 15px;
+            border-radius: 5px;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .remove-btn {
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 3px 8px;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        .error {
+            color: red;
+            font-size: 14px;
+            margin-top : 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a  class="nav_logo">Recipe Hub</a>
+            <ul class="nav_items">
+                <li class="nav_item">
+                    <a href="index.html" class="nav_link">Home</a>
+                    <a href="addrecipe.html" class="nav_link">Add Recipe</a>
+                    <a href="/backend/viewrecipe.html" class="nav_link">View Recipe</a>
+                </li>
+            </ul>
+            <button class="button" id="logout-btn">Logout</button>
+        </nav>
+    </header>
+
+    <div class="recipe-form">
+        <h1>Add Your Recipe</h1>
+        <form id="recipeForm">
+            <div class="form-group">
+                <label for="contributorName">Your Name*</label>
+                <input type="text" id="contributorName" required>
+                <div class="error" id="nameError">Please enter your name</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="contributorEmail">Your Email*</label>
+                <input type="email" id="contributorEmail" required>
+                <div class="error" id="emailError">Please enter a valid email address</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="recipeName">Recipe Name*</label>
+                <input type="text" id="recipeName" required>
+                <div class="error" id="recipeNameError">Please enter recipe name</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="recipeCategory">Category*</label>
+                <select id="recipeCategory" required>
+                    <option value="">Select a category</option>
+                    <option value="Breakfast">Breakfast</option>
+                    <option value="Lunch">Lunch</option>
+                    <option value="Dinner">Dinner</option>
+                    <option value="Dessert">Dessert</option>
+                    <option value="Snack">Snack</option>
+                    <option value="Drink">Drink</option>
+                </select>
+                <div class="error" id="categoryError">Please select a category</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="recipeImage">Image URL</label>
+                <input type="text" id="recipeImage" placeholder="https://example.com/image.jpg">
+            </div>
+            
+            <div class="form-group">
+                <label>Ingredients*</label>
+                <div class="ingredient-input">
+                    <input type="text" id="ingredientInput" placeholder="Enter ingredient (e.g., 1 cup flour)">
+                    <button type="button" class="add-btn" id="addIngredient">Add</button>
+                </div>
+                <div class="error" id="ingredientsError">Please add at least one ingredient</div>
+                <div id="ingredients-list"></div>
+            </div>
+            
+            <div class="form-group">
+                <label>Preparation Steps*</label>
+                <div class="step-input">
+                    <input type="text" id="stepInput" placeholder="Enter step (e.g., Preheat oven to 350°F)">
+                    <button type="button" class="add-btn" id="addStep">Add</button>
+                </div>
+                <div class="error" id="stepsError">Please add at least one step</div>
+                <div id="steps-list"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="recipeRating">Rating (1-5)</label>
+                <input type="number" id="recipeRating" min="1" max="5" value="3">
+            </div>
+            
+            <button type="submit" class="submit-btn">Save Recipe</button>
+            <div id="formSuccess" style="color: green; text-align: center; margin-top: 20px; display: none;">
+                Recipe saved successfully!
+            </div>
+        </form>
+    </div>
+
+    <script src="/backend/addrecipe.js"></script>
+</body>
+</html>
